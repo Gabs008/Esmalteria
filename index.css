@@ -1,0 +1,29 @@
+
+html, body {
+    height: 100%;
+}
+
+
+
+#conteiner{
+    background-color: aquamarine;
+    display: flex;
+    height: 100%;
+
+}
+
+#L1{
+    background-color: brown;
+    width: 40%;
+    text-align: center;
+}
+
+#L2{
+    background-color: blue;
+    width: 50%;
+}
+
+#img1{
+    
+   
+}
