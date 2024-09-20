@@ -6,7 +6,7 @@ html, body {
 
 
 #conteiner{
-    background-color: aquamarine;
+    background-color: #51453f;
     display: flex;
     height: 100%;
 
@@ -15,15 +15,32 @@ html, body {
 #L1{
     background-color: brown;
     width: 40%;
+    height: 514;
     text-align: center;
+    margin: auto;
 }
 
 #L2{
-    background-color: blue;
+    background-color: #51453f;
     width: 50%;
+    text-align: center;
+
 }
 
-#img1{
-    
-   
+.titulo{
+    font-family:'Yodnam Trial Regular' ;
+    font-size: 4rem;
 }
+
+@font-face {
+    font-family: 'Yodnam Trial Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Yodnam Trial Regular'), url('YodnamTrialRegular-EajA4.woff') format('woff');
+    }
+ @font-face {
+   font-family: 'ClearSans-Regular';
+   font-style: normal;
+   font-weight: normal;
+   src: local('ClearSans-Regular'), url('ClearSans-Regular.ttf') format('woff');
+      }
